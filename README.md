@@ -1,2 +1,3 @@
 # CSE330
-REPLACE-THIS-TEXT-WITH-YOUR-NAME-STUDENT-ID-AND-GITHUB-USERNAME
+Rohan Song 505908 RohanYim
+http://18.191.24.174/~RohanSong/module2/Calculator.html
