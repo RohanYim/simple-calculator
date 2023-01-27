@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="Calculator.css" type="text/css">
+</head>
+<body id="bd">
+    <form action="Calculator.php" method="get">
+        First Input: <input type="text" id="first" name="first_num" onkeyup="value=value.replace(/^\D*(\d*(?:\.\d{0,2})?).*$/g, '$1')">
+        <div>
+            <input type="radio" name="operator" value="+" checked>+
+            <input type="radio" name="operator" value="-">-
+            <input type="radio" name="operator" value="*">*
+            <input type="radio" name="operator" value="/">/
+        </div>
+        Second Input: <input type="text" id="second" name="second_num" onkeyup="value=value.replace(/^\D*(\d*(?:\.\d{0,2})?).*$/g, '$1')"><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
+
+
+
